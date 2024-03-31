@@ -1,0 +1,42 @@
+
+FastAPI application execution Steps:
+=======================================
+
+1.Import necessary modules.
+2.Define the database URL.
+3.Create an engine.
+4.Define a sessionmaker.
+5.Create a base class for your ORM models.
+6.define our database models
+7.Create tables by using Basemodels and engine(Base.metadata.create_all(bind=engine))
+8.define pydantic model it acts as serializer
+9.define views for perform operations like below
+GET----->for reading data
+POST---->for creating data
+PUT----->for updating data completely
+DELETE--->for deleting data
+10.now run our application by using uvicorn server component
+11.ofter we will get port number and IP address like 
+12.by using this IP address we can handle our operations with POSTmanAPI testing tool
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
