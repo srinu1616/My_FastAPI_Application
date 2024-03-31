@@ -8,7 +8,7 @@ from sqlalchemy.sql import func
 from geopy.distance import geodesic
 
 # Database connection
-SQLALCHEMY_DATABASE_URL = "mysql://root:root@localhost:9010/fastAPIproject2"
+SQLALCHEMY_DATABASE_URL = "mysql://username:password@localhost/our_databasename"
 engine = create_engine(SQLALCHEMY_DATABASE_URL)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 Base = declarative_base()
